@@ -144,5 +144,27 @@ if (seku + randoms) <= 59:
 elif (seku + randoms) > 59:
     min2 = (randoms // 60) + minu
     sek2 = (randoms + seku) % 60
+    if vala == 23:
+        vala = 0
+    if min2 > 59:
+        vala = vala + (min2 // 60)
+        min2 = min2 - 60
     print(f'naujas laikas su pridetom {randoms} sekundem: {vala}:{min2}:{sek2}')
 
+# print('uzduotis 10')
+# print()
+# sk = random.randint(1000,9999)
+# print(sk)
+# sk2 = random.randint(1000,9999)
+# print(sk2)
+# sk3 = random.randint(1000,9999)
+# print(sk3)
+# sk4 = random.randint(1000,9999)
+# print(sk4)
+# sk5 = random.randint(1000,9999)
+# print(sk5)
+# sk6 = random.randint(1000,9999)
+# print(sk6)
+# eilute = [sk, sk2, sk3, sk4, sk5, sk6]
+# eilute.sort(reverse=True)
+# print(eilute)
