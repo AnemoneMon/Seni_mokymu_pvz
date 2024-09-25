@@ -145,3 +145,4 @@ elif (seku + randoms) > 59:
     min2 = (randoms // 60) + minu
     sek2 = (randoms + seku) % 60
     print(f'naujas laikas su pridetom {randoms} sekundem: {vala}:{min2}:{sek2}')
+
